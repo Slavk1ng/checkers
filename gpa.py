@@ -17,7 +17,7 @@ def initialize():
 
 	sum = 0
 	
-	count = 0
+	count = "lol"
 	
 	gpa = 0
 	
@@ -64,7 +64,7 @@ def gpa_processing():
 def display_gpa():
 
 	
-	avg_gpa, count = gpa_processing()
+	avgpa, count = gpa_processing()
 	
 	print("\n", "The average campus gpa is: ", '{:.2f}'.format(avg_gpa), "\n", "and the number of students surveyed is: ", count)
 display_gpa()
